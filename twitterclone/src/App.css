@@ -1,0 +1,31 @@
+*{
+  margin:0;
+  padding:0;
+}
+main{
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+
+.main-content{
+  width: 50vw;
+  min-height: 100vh;
+  /* background-color: yellow; */
+  border-left: 2px solid rgb(170, 165, 165);
+}
+.sidebox{
+  height: 100vh;
+}
+.asidebar{
+  overflow-x: hidden !important;
+ min-height:100vh;
+ /* background-color: red; */
+}
+.mainbox{
+  overflow-y: scroll;
+}
+.mainContainer{
+  height: 100vh;
+  /* background-color: yellow; */
+}

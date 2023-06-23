@@ -1,0 +1,99 @@
+@media(max-width:658px){
+    .main-content{
+        width:80vw;
+        /* background-color:red; */
+    }
+    .sidebar{
+        display: none;
+    }
+}
+
+.tweet{
+   min-height: 50%;
+   width: 85%;
+    font-size: 21px;
+    border: none;
+
+}
+
+.tweet:focus{
+    border: none;
+}
+.input{
+
+    margin-top:12vh ;
+    margin-bottom:10px;
+}
+.lay{
+    display: flex;
+    flex-direction: column;
+    
+  width: 97%;
+  gap: 2vh;
+ margin-left:3%;
+}
+.lay select{
+width: 25%;
+padding: 2px;
+border-radius: 12px;
+border: 2px solid rgb(19, 169, 255);
+font-weight: 600;
+margin-left: 9%;
+
+}
+.lay button{
+    width: 20%;
+    border:none;
+    margin-left: 75%;
+    padding: 10px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size:16px;
+    background-color: rgb(0, 157, 255);
+    border-radius: 45px;
+}
+.lay button:hover{
+    background-color: rgb(4, 161, 239);
+    /* box-shadow:1px 1px 3px rgb(46, 43, 43); */
+    scale: 1.04;
+}
+h1{
+    margin-left: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  .likeComm{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5vh;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header{
+    width: 41.5vw;
+    height: max-content;
+    position: fixed ;
+    background-color:  rgba(232, 232, 232, 0.934);
+    z-index:20;
+    border-bottom:2px solid gray;
+
+  }
+  .commentBox{
+    width: 100%;
+  }
+  .commentBox p{
+ width: 80%;
+ margin: 1vh;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+  }
+ 
