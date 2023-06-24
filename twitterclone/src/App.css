@@ -1,3 +1,4 @@
+
 *{
   margin:0;
   padding:0;
@@ -29,3 +30,43 @@ main{
   height: 100vh;
   /* background-color: yellow; */
 }
+.log{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.982),rgba(21, 16, 16, 0.603)),url(./assets/pexels-valdemaras-d-1647962.jpg);
+  background-size: cover;
+}
+.log img{
+  width: 5vw;
+  height: 5vw;
+  margin-right:3vw;
+}
+.log h2{
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 3vw;
+  color: white;
+}
+.log p{
+  font-family:cursive;
+  font-weight: 700;
+  word-spacing: .5vw;
+  font-size: 1.5vw;
+  color: rgb(7, 140, 248);
+}
+.but{
+  background-color: #00a6ff;
+  padding: 1vw 4vw;
+  border-radius: 5vw;
+  color: aliceblue;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 2vh;
+}
+
+
