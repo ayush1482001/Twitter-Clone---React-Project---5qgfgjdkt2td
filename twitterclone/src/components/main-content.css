@@ -96,4 +96,23 @@ h1{
  font-family: Verdana, Geneva, Tahoma, sans-serif;
  
   }
+  .input div div button{
+    background-color: rgb(243, 243, 243)!important;
+    height: 40%;
+    width: 40%;
+    border-radius: 12px;
+    position: sticky;
+    margin: 0!important;
+
+  }
+  .selImg{
+    width: 15vw;
+    height: 10vw;
+  }
+   .closeBut{
+    background-color: rgb(43, 190, 43)!important;
+    color: blue!important;
+    border:2px solid red;
+   }
+ 
  

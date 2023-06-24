@@ -10,6 +10,33 @@ const Menubar = () => {
     // const[status,setStatus]=useState(false)
     const { loginWithRedirect,logout,isAuthenticated} = useAuth0();
     const { isOpen, onOpen, onClose } = useDisclosure()
+
+    // const handleTweetVal = (e) => {
+    //     isAuthenticated &&
+    //       setTweetVal({ ...tweetVal, src: cam.value, id: tweets.length + 1, des: e.target.value });
+    //   }
+    //   const addTweet = () => {
+    //     setTweetVal({ ...tweetVal, src: cam.value });
+    //     const arr = [...tweets, tweetVal];
+    //     isAuthenticated &&
+    //       setTweets((prev) =>
+    //         arr
+    //       )
+    //     console.log("cam.val", cam.value);
+    //     console.log("tweetval", tweetVal);
+    //     setTweetVal({
+    //       id: -2,
+    //       src: "",
+    //       name: isAuthenticated ? `${user.name}` : " ",
+    //       des: "",
+    //       likes: 0,
+    //       likeSt: false,
+    //       commentSt: false,
+    //       comments: []
+    //     })
+    //     setcam({ st: false, value: "" });
+    
+    //   };
     return <>
 
         <ul>
